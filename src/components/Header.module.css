@@ -1,0 +1,34 @@
+.header {
+    height: 100px;
+    border-bottom: 1px solid #852400;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerLinks {
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 35px;
+}
+
+.headerLinks:hover {
+    color: #852400;
+}
+
+.icons {
+    color: inherit;
+    margin-top: 35px;
+}
+
+.icons:hover {
+    color: #852400;
+}
+
+.icons svg {
+    height: 30px;
+    width: 30px;
+}
